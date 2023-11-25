@@ -1,0 +1,24 @@
+uuid: 0381d95b-be3b-4a29-bfaf-c7a9b8841fb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.carro
+  module:
+    - text
+id: node.carro.body
+field_name: body
+entity_type: node
+bundle: carro
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
